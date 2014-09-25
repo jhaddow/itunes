@@ -36,3 +36,29 @@ html, body {
 .ngGrid.unselectable {
   margin-top: 10px;
 }
+
+#right_stuff{
+  float: right;
+  width: 50%;
+  position: relative;
+  margin-bottom: 20px;
+  bottom: 12px;
+}
+
+#right_stuff > .form-control {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#right_stuff > label{
+  float: left;
+}
+
+#myContainer {
+  padding-top: 21px;
+}
+
+.panel-default {
+  margin-top: 101px;
+}
